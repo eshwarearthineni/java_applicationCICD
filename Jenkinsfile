@@ -7,11 +7,11 @@ pipeline{
      stages{
          
         stage('Git Checkout'){
-                   
+            steps{
             gitCheckout(
                 branch: "main",
                 url: "https://github.com/eshwarearthineni/java_applicationCICD.git"
             )
             }
         }
-}    
+}    }
