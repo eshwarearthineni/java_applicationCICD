@@ -18,7 +18,8 @@ pipeline{
          
             steps{
                script{
-                  mvn test()
+                 
+                     mvnTest()
                }
             }
         }
